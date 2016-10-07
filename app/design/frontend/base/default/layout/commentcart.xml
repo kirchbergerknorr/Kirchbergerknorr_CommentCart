@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <checkout_onepage_review>
+        <reference name="root">
+            <block type="core/text_list" name="checkout.onepage.commentcart.wrapper" as="agreements">
+                <block type="core/template" name="checkout.onepage.commentcart" template="commentcart/comment.phtml"/>
+                <block type="checkout/agreements" name="checkout.onepage.agreements"
+                       template="checkout/onepage/agreements.phtml"/>
+            </block>
+        </reference>
+    </checkout_onepage_review>
+    <checkout_onepage_index>
+        <reference name="head">
+            <action method="addItem">
+                <type>skin_js</type>
+                <name>js/checkout/commentcart.js</name>
+            </action>
+        </reference>
+    </checkout_onepage_index>
+    <default>
+        <reference name="head">
+            <block type="core/template" name="mage.baseurl" template="commentcart/baseurl.phtml"/>
+        </reference>
+    </default>
+</layout>

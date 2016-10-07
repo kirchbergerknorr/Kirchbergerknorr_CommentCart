@@ -1,0 +1,6 @@
+app/code/community/Kirchbergerknorr/CommentCart app/code/community/Kirchbergerknorr/CommentCart
+app/design/frontend/base/default/layout/commentcart.xml app/design/frontend/base/default/layout/commentcart.xml
+app/design/frontend/base/default/template/commentcart app/design/frontend/base/default/template/commentcart
+app/etc/modules/Kirchbergerknorr_CommentCart.xml app/etc/modules/Kirchbergerknorr_CommentCart.xml
+app/locale/de_DE/Kirchbergerknorr_CommentCart.csv app/locale/de_DE/Kirchbergerknorr_CommentCart.csv
+skin/frontend/base/default/js/checkout/commentcart.js skin/frontend/base/default/js/checkout/commentcart.js

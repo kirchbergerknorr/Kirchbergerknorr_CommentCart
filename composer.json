@@ -1,0 +1,22 @@
+{
+    "name": "kirchbergerknorr/Kirchbergerknorr_CommentCart",
+    "description": "Add comments to orders",
+    "type": "magento-module",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "name": "Leo Friedrichs",
+            "email": "lf@kirchbergerknorr.de"
+        }
+    ],
+    "repositories": {
+        "0": {
+            "type": "composer",
+            "url": "http://packages.firegento.com"
+        }
+    },
+    "require": {
+        "magento-hackathon/magento-composer-installer": "~3.0",
+        "aydin-hassan/magento-core-composer-installer": "~1.2"
+    }
+}
