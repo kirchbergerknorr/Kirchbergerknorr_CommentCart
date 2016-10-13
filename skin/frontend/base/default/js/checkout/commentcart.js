@@ -32,7 +32,7 @@
         var comment = commentElement.val();
         currentUpdate = $.ajax({
             type: 'POST',
-            url: '/commentcart/',
+            url: Mage.baseUrl + '/commentcart/',
             data: {
                 comment: comment
             },
