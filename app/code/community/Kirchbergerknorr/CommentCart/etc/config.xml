@@ -31,6 +31,17 @@
                 </setup>
             </kirchbergerknorr_commentcart_setup>
         </resources>
+        <events>
+            <sales_order_save_after>
+                <observers>
+                    <kirchbergerknorr_commentcart>
+                        <type>singleton</type>
+                        <class>Kirchbergerknorr_CommentCart_Model_Observer</class>
+                        <method>saveComment</method>
+                    </kirchbergerknorr_commentcart>
+                </observers>
+            </sales_order_save_after>
+        </events>
     </global>
     <frontend>
         <translate>
